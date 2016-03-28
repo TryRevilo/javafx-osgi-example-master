@@ -1,0 +1,13 @@
+Bundle-Version: 0.0.0.${tstamp}
+-buildpath: \
+	../cnf/plugins/org.apache.felix.dependencymanager.annotation-3.2.0.jar;version=file,\
+	org.apache.felix.dependencymanager,\
+	osgi.core,\
+	ui;version=latest
+Bundle-Version: 0.0.0.${tstamp}
+-buildpath: \
+	../cnf/plugins/org.apache.felix.dependencymanager.annotation-3.2.0.jar;version=file,\
+	org.apache.felix.dependencymanager,\
+	osgi.core,\
+	ui;version=latest
+Private-Package: main.java.mainscreen

@@ -1,0 +1,10 @@
+Bundle-Version: 1.0.0.${tstamp}
+-buildpath: \
+	../cnf/plugins/org.apache.felix.dependencymanager.annotation-3.2.0.jar;version=file,\
+	org.apache.felix.dependencymanager,\
+	osgi.core;version=5.0
+Private-Package: main.java.launcher.impl
+Export-Package: main.java.launcher
+Import-Package: \
+	*org.apache.felix.dm;version='[4.0.0, 5.0.0]',\
+	*
